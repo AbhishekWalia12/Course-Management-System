@@ -1,0 +1,13 @@
+2023-11-08T10:19:06.207+05:30  INFO 3620 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:24:06.222+05:30  INFO 3620 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:29:06.592+05:30  INFO 3620 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:32:33.059+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-11-08T10:32:33.079+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ASSOCIATEAPP with eureka with status DOWN
+2023-11-08T10:32:33.088+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1699419753087, current=DOWN, previous=UP]
+2023-11-08T10:32:33.089+05:30  INFO 3620 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ASSOCIATEAPP/LIN-5CG95147GK.corp.capgemini.com:associateapp:9092: registering service...
+2023-11-08T10:32:33.103+05:30  INFO 3620 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ASSOCIATEAPP/LIN-5CG95147GK.corp.capgemini.com:associateapp:9092 - registration status: 204
+2023-11-08T10:32:33.135+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-08T10:32:33.209+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-11-08T10:32:36.217+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-11-08T10:32:36.229+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ASSOCIATEAPP/LIN-5CG95147GK.corp.capgemini.com:associateapp:9092 - deregister  status: 200
+2023-11-08T10:32:36.245+05:30  INFO 3620 --- [RMI TCP Connection(502)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

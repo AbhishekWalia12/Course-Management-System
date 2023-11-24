@@ -1,0 +1,14 @@
+2023-11-08T10:18:58.758+05:30  INFO 3676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:23:58.778+05:30  INFO 3676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:28:59.149+05:30  INFO 3676 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-08T10:32:27.094+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-11-08T10:32:27.111+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMISSIONAPP with eureka with status DOWN
+2023-11-08T10:32:27.111+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1699419747111, current=DOWN, previous=UP]
+2023-11-08T10:32:27.112+05:30  INFO 3676 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMISSIONAPP/LIN-5CG95147GK.corp.capgemini.com:admissionapp:9093: registering service...
+2023-11-08T10:32:27.139+05:30  INFO 3676 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMISSIONAPP/LIN-5CG95147GK.corp.capgemini.com:admissionapp:9093 - registration status: 204
+2023-11-08T10:32:27.162+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-08T10:32:27.169+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-08T10:32:27.292+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-11-08T10:32:30.310+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-11-08T10:32:30.355+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMISSIONAPP/LIN-5CG95147GK.corp.capgemini.com:admissionapp:9093 - deregister  status: 200
+2023-11-08T10:32:30.369+05:30  INFO 3676 --- [RMI TCP Connection(506)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
